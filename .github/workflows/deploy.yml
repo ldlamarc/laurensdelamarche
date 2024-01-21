@@ -5,16 +5,10 @@ on:
     branches:
       - 'main'
 
-env:
-  RSYNC_PASSWORD: ${{ secrets.ONE_HOSTING_PASSWORD }}
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Deploy
-        run: |
-          rsync -aP -e "ssh -o StrictHostKeyChecking=no" www/* laurensdelamarche.be@ssh.laurensdelamarche.be:/www
 
