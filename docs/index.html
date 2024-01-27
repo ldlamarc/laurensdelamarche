@@ -349,7 +349,7 @@
 
           <p><a href="LaurensDelaMarche.pdf">Curriculum Vitae</a></p>
 
-          <p><a href="https://www.linkedin.com/profile/view?id=61161386">LinkedIn profile</a></p>
+          <p><a href="{{ site.linkedin_url }}">LinkedIn profile</a></p>
 
           <p>
             <strong>Programming Languages</strong><br />
@@ -677,7 +677,7 @@
       <div class="content" id="panel7">
         <div class="panel">
           You can contact me via my
-          <a href="https://www.linkedin.com/profile/view?id=61161386">LinkedIn profile</a>
+          <a href="{{ site.linkedin_url }}">LinkedIn profile</a>
           or via mail at
           <img aria-hidden="true" src="img/cinfo.png" />.
         </div>
@@ -1800,8 +1800,7 @@
 		  "@type" : "Organization",
 		  "name" : "Laurens De la Marche",
 		  "url" : "http://laurensdelamarche.be",
-		  "sameAs" : [ "https://www.linkedin.com/profile/view?id=AAIAAAOlP6oBOPpfejXSsjNsQxK0yJ-wtXs1bVo&trk",
-		    "https://twitter.com/LaurensDLM"]
+      "sameAs" : [ "{{ site.linkedin_url}}", "https://twitter.com/LaurensDLM"]
 		}
 		</script>
   <script src="js/vendor/jquery.js"></script>
