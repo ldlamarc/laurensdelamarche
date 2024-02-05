@@ -128,7 +128,8 @@ end
 
 ```ruby
 # api_call.rb
-# This code serves strictly as example code on how to integrate value_objects in typical Rails code and the pros and cons
+# This code serves strictly as example code on how to integrate value_objects 
+# in typical Rails code and the pros and cons
 # It has not been tested or used as is in a real world application
 
 class ApiCall < ActiveRecord::Base
@@ -139,7 +140,8 @@ class ApiCall < ActiveRecord::Base
   def http_response_code
     @code ||= ValueObjects::HttpStatusCode.new(read_attribute(:code))
     # Advantages
-      # Can serve as a good building block for a other Objects (e.g. a generic StatusPresenter[1] which translates success? to a green/red light in a View)
+      # Can serve as a good building block for a other Objects (e.g. a generic StatusPresenter[1] 
+      # which translates success? to a green/red light in a View)
     # Disadvantages:
       # You need an extra method to couple the value_object, an extra class, spec, file and probably folder.
   end
@@ -152,7 +154,8 @@ class ApiCall < ActiveRecord::Base
   def success?
     http_response_success? || input_errors.empty? 
     # Disadvantages:
-      # Stubbing http_response_success? in a unit test is with a boolean is very method and implementation specific, stubbing http_response_code with a HttpStatusCode.new(200) seems to be a better option
+      # Stubbing http_response_success? in a unit test is with a boolean is very method and implementation specific, 
+      # stubbing http_response_code with a HttpStatusCode.new(200) seems to be a better option
   end
 
   def http_response_success?

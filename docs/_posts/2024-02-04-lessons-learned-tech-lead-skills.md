@@ -6,7 +6,7 @@ datetime: 2024-02-04T20:00
 excerpt: Lessons learned as a Tech Lead
 ---
 
-# Introduction
+## Introduction
 
 You have spent many years as a [Senior Engineer]({% post_url 2024-02-04-essential-skills-senior-engineer %}), you
 have encountered and solved all kinds of technical challenges, you have formulated various opinions over the years and
@@ -14,13 +14,13 @@ you find yourself at a typical developer crossroad: you learn to become an exper
 
 A typical first leadership role is being a Tech Lead.
 
-# What is a Tech Lead?
+## What is a Tech Lead?
 
 That is a good question and the first lesson you learn as a leader. From a certain level roles become very open to
 interpretation and it's very good to research your role, write down how you view it on paper and present and discuss
 those findings with your manager as in this [example](/tech_lead_role.pdf).
 
-# Standard definition
+## Standard definition
 
 Tech Lead is an [archetype of a Staff Engineer](https://staffeng.com/guides/staff-archetypes/). Typically you stay an
 individual contributor which means you also do the work of a Senior Engineer. You are responsible for the technological
@@ -28,26 +28,26 @@ direction of the team but typically not the people management which is left for 
 advised to combine both [technical and people management](https://lethain.com/tech-lead-managers/). You typically rely
 on another person fulfulling the people management.
 
-# So it's not about people?
+## So it's not about people?
 
 Techical decisions are 10% about the technical aspect and 90% about the people. The technical aspect should not be a
 huge challenge if you did valuable years as a Senior. You have to make sure your decisions align as much as possible not
 only with the dev team but with adjacent teams and upper management. A lot of persuasion, optimism,
 positivity and general communication skills are required.
 
-# So how do you align people around your decisions?
+## So how do you align people around your decisions?
 
 Well the first switch you have to make as a leader is to not think in terms of "me/you/they" but "we". As a Tech Lead
 you have very valuable experience and you should fight for your ideas but in the end people will prefer ideas that were
 not shouted at them from an ivory tower.
 
-# Balancing your inner [Saruman with your inner Radagast](https://medium.com/@komorama/the-sarumans-and-the-radagasts-6392f889d142)
+## Balancing your inner [Saruman with your inner Radagast](https://medium.com/@komorama/the-sarumans-and-the-radagasts-6392f889d142)
 
 An ideal leader in an ideal environment is just a gardener giving everyone their ideal amount of water and sunshine. But
 sometimes you start in a desert. And then you might have to push some top-down ideas. You might face pushback,
 criticism, resistance to change and toxicity. Top-down costs capital. It's sometimes required but it costs.
 
-# How do you minimise the cost?
+## How do you minimise the cost?
 
 The top-down cost can be minimised by good storytelling and communication. Write your idea out. List all the trade-offs,
 make some pretty slides and add some humor and flavor.
@@ -60,7 +60,7 @@ summarise and compromise it into a decision you feel comfortable with. You plant
 Also it's cheaper to make a small step in the right direction than trying to solve too much with big leaps. Don't expect
 too much right off the bat. A PR that comes in at 5/10, get it to 7/10 instead of 10/10. If noone writes any tests ask for simple tests. Try easing everyone in.
 
-# How do you pay the cost?
+## How do you pay the cost?
 
 It's important to safeguard you personal time to recuperate, to keep a healthy worklife balance. It's important to stay optimistic and positive and to avoid
 falling too much into the defensive or worst reactive. This is not an easy exercise because as a Senior you might be used to your
@@ -73,7 +73,7 @@ But as any first-line leader will say it's not easy. You will have
 expectations, pressure from the bottom, top and sides and you will get squeezed as a lemon so make sure you know some recipes to make
 lemonade.
 
-# Which decisions do you focus on?
+## Which decisions do you focus on?
 
 As a Tech Lead you have to be "plugged into the feed" of the company as much as possible. You need to know the codebase, what
 managament is thinking, you need to know what your co-workers are thinking, you need to map out the company and stay up
@@ -87,7 +87,7 @@ might be a wasted learning opportunity for another member of the team. Make sure
 as you are probably still the most Senior on your team, and let other team members clear the rest and learn in the
 process.
 
-# Further reading
+## Further reading
 
 Leadership is a whole new field of learning. You might know everything about a technological stack. Assume you start on
 level 1 of leadership. It's a long road and one that is not easily learned by reading. But reading can still help and I

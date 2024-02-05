@@ -6,7 +6,7 @@ datetime: 2024-02-04T20:00
 excerpt: Opinionated piece on what makes a Senior Engineer
 ---
 
-# Introduction
+## Introduction
 
 In tech the term "Senior" is thrown around a lot and often means different things to different people and different
 companies. In this article I will try to formulate what it means to me. Fair warning: it's very opinionated. If you are
