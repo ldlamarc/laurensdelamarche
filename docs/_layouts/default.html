@@ -304,7 +304,7 @@
         {% assign active = page.url | downcase | split: '/' %}
         <ul class="right">
           <li {% if active[1]==nil %}class='active' {% endif %}><a href="/">About me</a></li>
-          <li {% if active[1]=='skills.html' %}class='active' {% endif %}><a href="/skills">Skill set</a></li>
+          <li {% if active[1]=='skills.html' %}class='active' {% endif %}><a href="/skills">Hard skills</a></li>
           <li {% if active[1]=='portfolio.html' %}class='active' {% endif %}><a href="/portfolio">Portfolio</a></li>
           <li {% if active[1]=='reading.html' %}class='active' {% endif %}><a href="/reading">Reading lists</a></li>
           <li {% if active[1]=='articles.html' %}class='active' {% endif %}><a href="/articles">Articles</a></li>
